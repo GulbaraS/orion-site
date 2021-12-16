@@ -14,3 +14,10 @@ html {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block;
+}

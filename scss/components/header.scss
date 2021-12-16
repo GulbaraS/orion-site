@@ -2,6 +2,7 @@
     min-height: 120px;
     padding-top: 20px;
     margin: 0;
+    background: rgb(98, 217, 238);
 }
 
 .header-inner {
@@ -21,15 +22,29 @@
   height: 100%;
 }
 
-.header-menu {
-  max-width: 850px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  text-align: right;
+nav {
+    ul {
+          max-width: 850px;
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          display: flex;
+          flex-wrap: wrap;
+          text-align: right;
+    }
+    li {
+        display: inline-block;
+    }
+    li :hover {
+        color: blueviolet;
+
+    }
+    a {
+        text-transform: uppercase;
+        text-decoration: none;
+    }
 }
+
 
 .header-menu-item + .header-menu-item {
   margin-right: 25px;
@@ -40,3 +55,4 @@
 .header-menu-item :hover {
   color: #1ABB9C;
 }
+

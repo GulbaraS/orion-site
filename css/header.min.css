@@ -2,6 +2,7 @@
   min-height: 120px;
   padding-top: 20px;
   margin: 0;
+  background: #62d9ee;
 }
 
 .header-inner {
@@ -53,4 +54,9 @@
 
 .header-menu-item :hover {
   color: #1ABB9C;
+}
+
+.header-menu-link {
+  text-transform: uppercase;
+  text-decoration: none;
 }
