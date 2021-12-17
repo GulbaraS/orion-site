@@ -2,18 +2,19 @@
     min-height: 120px;
     padding-top: 20px;
     margin: 0;
-    background: rgb(98, 217, 238);
 }
 
 .header-inner {
     display: flex;
     justify-content: space-between;
     text-align: center;
+    background-color: rgb(208, 241, 247);
 }
 
 .header-logo {
     max-width: 350px;
     max-height: 100px;
+    opacity: 80%;
 }
 
 .header-logo-img {
@@ -22,11 +23,11 @@
   height: 100%;
 }
 
-nav {
+.nav {
     ul {
-          max-width: 850px;
+          max-width: 950px;
           margin: 0;
-          padding: 0;
+          padding-top: 40px;
           list-style: none;
           display: flex;
           flex-wrap: wrap;
@@ -34,14 +35,17 @@ nav {
     }
     li {
         display: inline-block;
-    }
-    li :hover {
-        color: blueviolet;
 
+        & :hover {
+        color: blueviolet;
+        }
     }
+    
     a {
         text-transform: uppercase;
         text-decoration: none;
+        font-weight: bold;
+        font-size: 20px;
     }
 }
 
@@ -52,7 +56,5 @@ nav {
 .header-menu-item:nth-child(1) {
   margin-right: 25px;
 }
-.header-menu-item :hover {
-  color: #1ABB9C;
-}
+
 
