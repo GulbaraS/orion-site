@@ -1,0 +1,73 @@
+@import "./mixin";
+
+.footer {
+    min-height: 130px;
+    padding: 25px 30px;
+    margin: 0;
+    display: inline;
+    
+}
+.footer-inner {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: rgb(208, 241, 247);
+}
+.contacts {
+     h3 {
+        @include h3;
+     }
+    
+    li {
+        text-decoration: none;
+        list-style: none;
+        line-height: 35px;
+        text-align: left;
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
+
+.social {
+    h3 {
+        @include h3;
+    }
+
+    ul {
+        max-width: 950px;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: right;
+
+        li {
+            display: inline-block;
+            padding: 15px;
+            padding-bottom: 20px;
+
+            & :hover {
+                transform: skew(-15deg);
+                      
+            }
+        }
+    }
+}
+
+
+.copyright {
+    margin: 0;
+    font-size: 14px;
+    line-height: 22px;
+    max-height: 110px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    background-color: rgb(208, 241, 247);
+
+    hr {
+        margin: 0;
+        padding: 0;
+        border: 1px solid black;
+    }
+    
+}

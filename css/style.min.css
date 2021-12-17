@@ -91,3 +91,83 @@ html {
 .header-menu-item:nth-child(1) {
   margin-right: 25px;
 }
+
+.footer {
+  min-height: 130px;
+  padding: 25px 30px;
+  margin: 0;
+  display: inline;
+}
+
+.footer-inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  text-align: center;
+  background-color: #d0f1f7;
+}
+
+.contacts h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.contacts li {
+  text-decoration: none;
+  list-style: none;
+  line-height: 35px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.social h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.social ul {
+  max-width: 950px;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  text-align: right;
+}
+
+.social ul li {
+  display: inline-block;
+  padding: 15px;
+  padding-bottom: 20px;
+}
+
+.social ul li :hover {
+  -webkit-transform: skew(-15deg);
+      -ms-transform: skew(-15deg);
+          transform: skew(-15deg);
+}
+
+.copyright {
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+  max-height: 110px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  background-color: #d0f1f7;
+}
+
+.copyright hr {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+}
