@@ -92,6 +92,29 @@ html {
   margin-right: 25px;
 }
 
+main {
+  background-color: #e5f5f8;
+}
+
+.services {
+  height: 500px;
+  background-image: url(/images/pic-3.jpg);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.services h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 150px;
+  padding-left: 600px;
+  line-height: 50px;
+}
+
+.services a {
+  padding-left: 800px;
+}
+
 .footer {
   min-height: 130px;
   padding: 25px 30px;
@@ -112,7 +135,7 @@ html {
 }
 
 .contacts h3 {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -126,7 +149,7 @@ html {
 }
 
 .social h3 {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold;
 }
 

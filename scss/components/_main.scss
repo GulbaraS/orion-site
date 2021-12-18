@@ -1,5 +1,35 @@
+@import "./mixin";
+
+main {
+    background-color: rgb(229, 245, 248);
+}
 //section promo
 
+
+//section services
+.services {
+    height: 500px;
+    background-image: url(/images/pic-3.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+
+    h2 {
+        @include h2;
+        padding-top: 150px;
+        padding-left: 600px;
+        line-height: 50px;
+    }
+
+    a {
+        padding-left: 800px;
+    }
+   
+     
+}
+
+//section news
+
+//section review
 
 
 
