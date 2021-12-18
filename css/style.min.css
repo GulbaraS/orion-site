@@ -112,7 +112,25 @@ main {
 }
 
 .services a {
-  padding-left: 800px;
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  width: 120px;
+  height: 45px;
+  background: #3F8DBF;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+
+.services a :hover {
+  background-color: cornflowerblue;
+  color: cornsilk;
+}
+
+.services .services-btn {
+  margin-left: 800px;
 }
 
 .footer {

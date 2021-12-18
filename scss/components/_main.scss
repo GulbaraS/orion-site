@@ -21,11 +21,23 @@ main {
     }
 
     a {
-        padding-left: 800px;
+        @include btn;  
+        
+        & :hover {
+            background-color: cornflowerblue;
+            color: cornsilk;
+        }  
+                  
+    }    
+
+    .services-btn {
+        margin-left: 800px;     
+           
     }
-   
      
+    
 }
+
 
 //section news
 

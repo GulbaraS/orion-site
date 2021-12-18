@@ -7,3 +7,16 @@
     font-size: 40px;
     font-weight: bold;
 }
+
+@mixin btn {
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    width: 120px;
+    height: 45px;
+    background: #3F8DBF;
+    border-radius: 10px;
+    
+}
