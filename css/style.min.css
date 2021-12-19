@@ -183,6 +183,12 @@ main {
   color: rgba(17, 16, 16, 0.842);
 }
 
+.news h2:hover {
+  font-size: 60px;
+  color: #0b0b3d;
+  font-style: italic;
+}
+
 .news h2 a {
   text-decoration: none;
   -webkit-text-decoration-line: none;
