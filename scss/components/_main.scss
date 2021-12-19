@@ -112,13 +112,95 @@ main {
             color: cornsilk;
             }  
 
-            margin-left: 30%;                    
-     
+            margin-left: 30%;                  
         }
-
-    }
-    
+    }    
 }
 
-
 //section review
+.review {
+    margin-top: 20px;
+
+    h2 {
+        @include h2;
+        font-size: 50px;
+        margin: 0 0 0 45%;
+        display: inline-block;
+        color: rgba(17, 16, 16, 0.842); 
+    
+
+         &:hover {
+                font-size: 60px;
+                color: rgb(11, 11, 61);
+                font-style: italic;
+            }
+
+        a {                      
+            text-decoration: none;
+            text-decoration-line: none;
+            text-decoration-color: none;
+            text-transform: uppercase;          
+        }
+    }
+
+    .review-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;  
+
+        .review-item {
+            display: inline-block;
+            max-width: 20%;
+            min-height: 400px;
+            text-align: center;
+            margin-top: 20px;
+
+            p {
+                font-size: 18px;
+                line-height: 20px;
+            }
+            
+            a {
+                @include btn;       
+            }
+        }
+        .tweeter-img {
+             position: relative;
+             display: inline-block;
+             background-image: url(/images/twitter.png) ;
+             background-repeat: no-repeat;
+             background-position: center top;
+             width: 90px;
+             height: 90px;
+        }
+        .instagram-img {
+            position: relative;
+            display: inline-block;
+            background-image: url(/images/instagram.png) ;
+            background-repeat: no-repeat;
+            background-position: center top;
+            width: 90px;
+            height: 90px;
+        }
+        .facebook-img {
+            position: relative;
+            display: inline-block;
+            background-image: url(/images/facebook.png) ;
+            background-repeat: no-repeat;
+            background-position: center top;
+            width: 90px;
+            height: 90px;
+        }
+        .linkedin-img {
+            position: relative;
+            display: inline-block;
+            background-image: url(/images/linkedin.png) ;
+            background-repeat: no-repeat;
+            background-position: center top;
+            width: 90px;
+            height: 90px;
+        }
+
+
+    }
+}

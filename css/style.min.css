@@ -250,6 +250,115 @@ main {
   color: cornsilk;
 }
 
+.review {
+  margin-top: 20px;
+}
+
+.review h2 {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0 0 0 45%;
+  display: inline-block;
+  color: rgba(17, 16, 16, 0.842);
+}
+
+.review h2:hover {
+  font-size: 60px;
+  color: #0b0b3d;
+  font-style: italic;
+}
+
+.review h2 a {
+  text-decoration: none;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  -webkit-text-decoration-color: none;
+          text-decoration-color: none;
+  text-transform: uppercase;
+}
+
+.review .review-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.review .review-menu .review-item {
+  display: inline-block;
+  max-width: 20%;
+  min-height: 400px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.review .review-menu .review-item p {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.review .review-menu .review-item a {
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  width: 120px;
+  height: 45px;
+  background: #3F8DBF;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+
+.review .review-menu .tweeter-img {
+  position: relative;
+  display: inline-block;
+  background-image: url(/images/twitter.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 90px;
+  height: 90px;
+}
+
+.review .review-menu .instagram-img {
+  position: relative;
+  display: inline-block;
+  background-image: url(/images/instagram.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 90px;
+  height: 90px;
+}
+
+.review .review-menu .facebook-img {
+  position: relative;
+  display: inline-block;
+  background-image: url(/images/facebook.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 90px;
+  height: 90px;
+}
+
+.review .review-menu .linkedin-img {
+  position: relative;
+  display: inline-block;
+  background-image: url(/images/linkedin.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 90px;
+  height: 90px;
+}
+
 .footer {
   min-height: 130px;
   padding: 25px 30px;
