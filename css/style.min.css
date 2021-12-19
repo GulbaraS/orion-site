@@ -96,8 +96,46 @@ main {
   background-color: #e5f5f8;
 }
 
+.promo {
+  padding-top: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 400px;
+      grid-template-rows: 400px;
+  text-align: center;
+}
+
+.promo .promo-text {
+  padding-top: 18%;
+}
+
+.promo h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.promo a {
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  width: 120px;
+  height: 45px;
+  background: #3F8DBF;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+
+.promo a:hover {
+  background-color: cornflowerblue;
+  color: cornsilk;
+}
+
 .services {
-  height: 500px;
+  height: 400px;
   background-image: url(/images/pic-3.jpg);
   background-repeat: no-repeat;
   background-position: left center;
@@ -124,7 +162,7 @@ main {
           border-radius: 10px;
 }
 
-.services a :hover {
+.services a:hover {
   background-color: cornflowerblue;
   color: cornsilk;
 }

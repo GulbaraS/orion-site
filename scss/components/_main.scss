@@ -4,11 +4,35 @@ main {
     background-color: rgb(229, 245, 248);
 }
 //section promo
+.promo {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px;
+    text-align: center;
 
+    .promo-text {
+        padding-top: 18%;
+    }
+
+    h2 {
+        @include h2;
+    }
+
+    a {
+        @include btn;
+
+        &:hover {
+            background-color: cornflowerblue;
+            color: cornsilk;
+        }  
+    }
+
+}
 
 //section services
 .services {
-    height: 500px;
+    height: 400px;
     background-image: url(/images/pic-3.jpg);
     background-repeat: no-repeat;
     background-position: left center;
@@ -23,7 +47,7 @@ main {
     a {
         @include btn;  
         
-        & :hover {
+        &:hover {
             background-color: cornflowerblue;
             color: cornsilk;
         }  
@@ -40,6 +64,9 @@ main {
 
 
 //section news
+
+
+
 
 //section review
 
