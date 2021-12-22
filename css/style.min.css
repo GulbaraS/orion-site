@@ -319,6 +319,11 @@ main {
           border-radius: 10px;
 }
 
+.review .review-menu .review-item a:hover {
+  background-color: cornflowerblue;
+  color: cornsilk;
+}
+
 .review .review-menu .tweeter-img {
   position: relative;
   display: inline-block;

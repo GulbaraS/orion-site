@@ -161,7 +161,12 @@ main {
             }
             
             a {
-                @include btn;       
+                @include btn;  
+                
+                &:hover {
+            background-color: cornflowerblue;
+            color: cornsilk;
+                } 
             }
         }
         .tweeter-img {
