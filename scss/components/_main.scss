@@ -10,9 +10,12 @@ main {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 400px;
     text-align: center;
+    
 
     .promo-text {
-        padding-top: 18%;
+        max-width: 300px;
+        max-height: 100px;
+        overflow: hidden;
     }
 
     h2 {
@@ -33,7 +36,7 @@ main {
 //section services
 .services {
     height: 400px;
-    background-image: url(/images/pic-3.jpg);
+    background-image: url(./images/pic-3.jpg);
     background-repeat: no-repeat;
     background-position: left center;
 
@@ -172,7 +175,7 @@ main {
         .tweeter-img {
              position: relative;
              display: inline-block;
-             background-image: url(/images/twitter.png) ;
+             background-image: url(./images/twitter.png) ;
              background-repeat: no-repeat;
              background-position: center top;
              width: 90px;
@@ -181,7 +184,7 @@ main {
         .instagram-img {
             position: relative;
             display: inline-block;
-            background-image: url(/images/instagram.png) ;
+            background-image: url(./images/instagram.png) ;
             background-repeat: no-repeat;
             background-position: center top;
             width: 90px;
@@ -190,7 +193,7 @@ main {
         .facebook-img {
             position: relative;
             display: inline-block;
-            background-image: url(/images/facebook.png) ;
+            background-image: url(./images/facebook.png) ;
             background-repeat: no-repeat;
             background-position: center top;
             width: 90px;
@@ -199,7 +202,7 @@ main {
         .linkedin-img {
             position: relative;
             display: inline-block;
-            background-image: url(/images/linkedin.png) ;
+            background-image: url(./images/linkedin.png) ;
             background-repeat: no-repeat;
             background-position: center top;
             width: 90px;
